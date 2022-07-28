@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b339f50736d98d43bf1f49a50074d72
+guid: d35da9cc675b35f4dbadf54a91d4ee46
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,31 +104,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Fight_0
+      name: Player_idle_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 148
-        width: 35
-        height: 39
-      alignment: 9
-      pivot: {x: 0.50926, y: 0.45159635}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74e75e5f2d58165418a988993ba1b398
-      internalID: -687907817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Fight_1
-      rect:
-        serializedVersion: 2
-        x: 174
+        x: 44
         y: 148
         width: 29
         height: 39
@@ -139,17 +118,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d79af2b2dab1f498415353b01e612d
-      internalID: -1663695226
+      spriteID: f9e0381082f3c0742bbdf7df1981cf9a
+      internalID: -2024028424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Fight_2
+      name: Player_idle_1
       rect:
         serializedVersion: 2
-        x: 301
+        x: 172
         y: 148
         width: 29
         height: 39
@@ -160,71 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 483a319298eadec47ae2e366f630ffd7
-      internalID: 1060562505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Fight_3
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 148
-        width: 29
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e74772409267fb243aa0c45e53d92ad8
-      internalID: -1270270059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Fight_4
-      rect:
-        serializedVersion: 2
-        x: 559
-        y: 148
-        width: 35
-        height: 39
-      alignment: 9
-      pivot: {x: 0.39888915, y: 0.48490828}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d781ccf841f0a1c4eb8596c6d0deb0e4
-      internalID: -493920026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Fight_5
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 148
-        width: 34
-        height: 39
-      alignment: 9
-      pivot: {x: 0.4086555, y: 0.48889434}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dd925be284121347bc00463a5715ebf
-      internalID: -701727782
+      spriteID: 000373d3ebf57434d9ac0059e677dc3a
+      internalID: -111168239
       vertices: []
       indices: 
       edges: []
@@ -240,13 +156,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player_Fight_4: -493920026
-      Player_Fight_6: -1845298758
-      Player_Fight_3: -1270270059
-      Player_Fight_2: 1060562505
-      Player_Fight_0: -687907817
-      Player_Fight_5: -701727782
-      Player_Fight_1: -1663695226
+      Player_idle_0: -2024028424
+      Player_idle_1: -111168239
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

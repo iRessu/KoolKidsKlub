@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b339f50736d98d43bf1f49a50074d72
+guid: 0a4016313b63d8c41b90b830ea09a428
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,127 +104,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Fight_0
+      name: Enemy_death_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 148
-        width: 35
-        height: 39
-      alignment: 9
-      pivot: {x: 0.50926, y: 0.45159635}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74e75e5f2d58165418a988993ba1b398
-      internalID: -687907817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Fight_1
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 148
-        width: 29
-        height: 39
+        x: 0
+        y: 14
+        width: 64
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d79af2b2dab1f498415353b01e612d
-      internalID: -1663695226
+      spriteID: 490e1694f247b2644ad235a7c45f27c4
+      internalID: 2075489219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Fight_2
+      name: Enemy_death_1
       rect:
         serializedVersion: 2
-        x: 301
-        y: 148
-        width: 29
-        height: 39
+        x: 64
+        y: 14
+        width: 64
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 483a319298eadec47ae2e366f630ffd7
-      internalID: 1060562505
+      spriteID: 0ca734a85bdb8594794ed58856747b11
+      internalID: -915474229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Fight_3
+      name: Enemy_death_2
       rect:
         serializedVersion: 2
-        x: 429
-        y: 148
-        width: 29
-        height: 39
+        x: 128
+        y: 14
+        width: 64
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e74772409267fb243aa0c45e53d92ad8
-      internalID: -1270270059
+      spriteID: 729697d07978f6140bffd28708f4ec46
+      internalID: -1561553316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Fight_4
+      name: Enemy_death_3
       rect:
         serializedVersion: 2
-        x: 559
-        y: 148
-        width: 35
-        height: 39
-      alignment: 9
-      pivot: {x: 0.39888915, y: 0.48490828}
+        x: 192
+        y: 14
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d781ccf841f0a1c4eb8596c6d0deb0e4
-      internalID: -493920026
+      spriteID: 2b6e043b712891342a65b18da805cae9
+      internalID: -552456299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Fight_5
+      name: Enemy_death_4
       rect:
         serializedVersion: 2
-        x: 687
-        y: 148
-        width: 34
-        height: 39
-      alignment: 9
-      pivot: {x: 0.4086555, y: 0.48889434}
+        x: 256
+        y: 14
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dd925be284121347bc00463a5715ebf
-      internalID: -701727782
+      spriteID: cbad440274780c04580ec4988535b050
+      internalID: -1652451942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_death_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 14
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf283405e49db54ab57abea9b55a057
+      internalID: -1323449273
       vertices: []
       indices: 
       edges: []
@@ -240,13 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player_Fight_4: -493920026
-      Player_Fight_6: -1845298758
-      Player_Fight_3: -1270270059
-      Player_Fight_2: 1060562505
-      Player_Fight_0: -687907817
-      Player_Fight_5: -701727782
-      Player_Fight_1: -1663695226
+      Enemy_death_0: 2075489219
+      Enemy_death_5: -1323449273
+      Enemy_death_3: -552456299
+      Enemy_death_2: -1561553316
+      Enemy_death_4: -1652451942
+      Enemy_death_1: -915474229
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
