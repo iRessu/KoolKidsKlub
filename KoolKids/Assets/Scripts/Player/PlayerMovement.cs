@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     const string PLAYER_IDLE = "Player_Idle";
     const string PLAYER_RUN = "Player_walk";
     const string PLAYER_JUMP = "Player_Jump";
-    public const string PLAYER_ATTACK = "PLayer_Atk";
+    const string PLAYER_ATTACK = "PLayer_Atk";
     
 
 
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-
+        
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
@@ -49,8 +49,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
        
-     
-
         if (IsGrounded())
         {
             if (rb.velocity.x != 0)
@@ -96,10 +94,10 @@ public class PlayerMovement : MonoBehaviour
 
    
    
+   
    public void ChangeAnimationState(string newState)
     {
         if (currentState == newState) return;
-
         animator.Play(newState);
     }
 }
