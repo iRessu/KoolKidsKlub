@@ -35,6 +35,7 @@ public class Health : MonoBehaviour
             {
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
+                spriteRend.color = new Color(0, 0, 0, 0.7f);
             }
         }
     }
